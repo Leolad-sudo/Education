@@ -34,7 +34,7 @@
 
 - `index.html` - Main HTML file for the homepage.
 - `styles/` - Contains CSS files for styling.
-- `images/` - (Optional) Stores any images used in the layout.
+- `images/` - Stores any images used in the layout.
 
 ---
 
