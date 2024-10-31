@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Roboto", serif;
+}
+
+.Navigation{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 70px;
+   background-color: #2be27a;
+}
+
+.Navigation button{
+   background-color: transparent;
+   width: 10%;
+   padding: 7px 5px;
+   border-radius: 25px;
+   cursor: pointer;
+}
+
+.Nav{
+   display: flex;
+   align-items: center;
+}
+
+.Logo{
+   width: 200px;
+}
+
+.Logo img{
+   width: 100%;
+}
+
+.Nav_Item{
+   margin: 0 0 0 20px;
+}
+
+.Nav_Item ul{
+   display: flex;
+   cursor: pointer;
+}
+
+.Nav_Item ul li{
+   padding: 0 15px;
+   list-style: none;
+   display: flex;
+   align-items: center;
+}
+
+.Nav_Item ul li svg{
+   width: 17px;
+   margin: 0 0 0 5px;
+}
+
+
+.Home{
+   width: 100%;
+   height: 91dvh;
+   background-image: url('./Images/Background_Image.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+}
+
+.Meta_Header{
+    width: 50%;
+   color: #fff;
+   margin: 0 0 0 100px;
+}
+
+.Meta_Header h3{
+   font-family: "Bebas Neue", sans-serif;
+   font-size: 50px;
+   letter-spacing: 5px;
+}
+
+.Btn{
+   width: 50%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 60px 0 0 0;
+}
+
+.Btn button{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin: 0 5px;
+   padding: 15px;
+   border: none;
+   background-color: #2be27a;
+   color: #fff;  
+}
+
+.Btn button:nth-child(2){
+   background-color: #d0e22b;
+   color: #fff;  
+}
+
+
+.Btn button svg{
+   width: 13px;
+}
