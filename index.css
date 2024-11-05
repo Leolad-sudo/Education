@@ -200,3 +200,79 @@
    text-align: center;
    padding: 0 50px;
 }
+
+.Video_Essentials{
+   margin:100px 0 50px 0;
+   display: flex;
+   flex-direction: column;
+}
+
+.Education_Video{
+   width: 100%;
+   height: 80vh;
+   background-image: url('./Images/Image_2.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin:0 0 50px 0;
+}
+
+.Play_Outer,
+.Play_Main{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   background-color: #dddddd82;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+.Play_Main{
+   width: 120px;
+   height: 120px;
+   background-color: #fff;
+}
+
+.Play_Main svg{
+   width: 50px;
+}
+
+.Essenttials_Data{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   color: #28445A;
+}
+
+.Data_Meta{
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.Data_Meta p{
+   margin: 15px 0 0 0;
+}
+
+.DM_Top{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+
+.DMT_Icon svg{
+   width: 25px;
+   margin: 0 0 0 0;
+}
+
+.DM_Top h4{
+   margin: 0 0 0 10px;
+}
