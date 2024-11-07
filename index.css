@@ -775,13 +775,13 @@ span{
    gap: 30px;
 }
 
-.note_8{
+.note_8 {
    display: flex;
    flex-direction: column;
    width: 300px; 
    justify-content: center;
    align-items: center;
-   text-align: justify;
+   text-align:justify;
    border-radius: 10px;
    color: #28445A;
    background-color: #f8f5f587;
@@ -790,11 +790,18 @@ span{
 .note_8 h1{
    font-size: 24px;
    margin:  0 0 18px 0;
+   cursor: pointer;
 }
 
+.note_8 h1:hover{
+   text-decoration: underline;
+}
 .note_8 h6{
    opacity: 0.6;
    margin:  0 0 18px 0;
+}
+.note_8 p{
+   padding: 20px;
 }
 
 
@@ -818,16 +825,19 @@ span{
    justify-content: left;
    align-items:center;
    margin: 20px 0 0 0;
-   gap: 10px;
- }
+}
 
 .cotent_6 p{
-   text-align: left;
-   text-wrap: nowrap;
+   padding-inline: 0 0 0 20px;
+   cursor: pointer;
+}
+
+.cotent_6 p:hover{
+   text-decoration: underline;
 }
 
 .cotent_6 svg{
-   width: 25px;
+   width: 18px;
 }
 
 .sub-paragraph_11{
@@ -847,15 +857,20 @@ form{
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: start;
    flex-direction: column;
-   padding: 10px;
+   padding: 40px;
+   background-color: #11112c;
+   border-radius: 10px;
+}
+form h1{
+   padding: 0 0 0 10px;
 }
 
 form p{
    margin: 0 0 10px 0;
+   padding: 0 0 0 10px;
+   color: #2b2b31;
 }
-
 
 input{
    width: 200px;
@@ -872,19 +887,26 @@ input{
    padding:  0 0 0 100px;
    font-size: 20px;
    color: #fff;
+   cursor: pointer;
 }
 
 .note_9 h5{
    margin:  0 0 25px 0;
 }
 
+.note_9 h5:hover{
+   text-decoration: underline;
+}
+
+
 .left_column{
+   display: flex;
+   flex-direction: column;
    margin: -60px 0 0 0;
 }
 
 .cotent_7{
    display: flex;
-   justify-content: center;
    align-items: center;
    padding: 0 0 0 150px;
    gap: 10px;
@@ -892,10 +914,12 @@ input{
    color: #fff;
    font-size: 20px;
    font-weight: bolder;
+   cursor: pointer;
 }
 
 .background{
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    background-color: #11112c;
@@ -920,6 +944,7 @@ input{
 
 .image_wrapper_5{
    width: 200px;
+   cursor: pointer;
 }
 
 .text_wrapper_10 h5{
